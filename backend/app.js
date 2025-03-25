@@ -1,8 +1,13 @@
+//pr voir routes api attendues par frontend: frontend\src\utils\constants.js
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const path = require("path");
 
 const Book = require("./models/Book");
+const booksRoutes = require("./routes/books");
+const userRoutes = require("./routes/user");
 
 const app = express();
 
@@ -28,6 +33,10 @@ app.use((req, res, next) => {
   );
   next();
 });
+
+/*app.use("/api/books", booksRoutes);*/
+app.use("/api/auth", userRoutes);
+app.use("images", express.static(path.join(__dirname, "images")));
 
 app.post("/api/books", (req, res, next) => {
   delete req.body._id;
