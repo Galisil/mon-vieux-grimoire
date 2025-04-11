@@ -1,5 +1,6 @@
 const http = require("http");
 const app = require("./app");
+const mongoose = require("mongoose");
 
 const normalizePort = (val) => {
   const port = parseInt(val, 10);
@@ -44,5 +45,15 @@ server.on("listening", () => {
   const bind = typeof address === "string" ? "pipe " + address : "port " + port;
   console.log("Listening on " + bind);
 });
+
+// Connexion à MongoDB uniquement si on n'est pas en mode test
+if (process.env.NODE_ENV !== "test") {
+  mongoose
+    .connect(
+      "mongodb+srv://juliettemaret:passwordmongodb@cluster0.gnxzg.mongodb.net/mon-vieux-grimoire?retryWrites=true&w=majority&appName=Cluster0"
+    )
+    .then(() => console.log("Connexion à MongoDB réussie !"))
+    .catch(() => console.log("Connexion à MongoDB échouée !"));
+}
 
 server.listen(port);

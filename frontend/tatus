@@ -1,0 +1,59 @@
+[33mcommit c567723dedad594b9ea47b0ef75fb44c9242f001[m
+Author: aurelien-oc-mentorship <65898532+aurelien-oc-mentorship@users.noreply.github.com>
+Date:   Wed Dec 14 07:36:10 2022 -0500
+
+    Initialize project using Create React App
+
+[33mcommit 4ebd49ec8c9b9a2a551a2b77ffde1556fcacd6df[m
+Author: aurelien-oc-mentorship <65898532+aurelien-oc-mentorship@users.noreply.github.com>
+Date:   Mon Dec 19 22:24:42 2022 -0500
+
+    First Commit : Home test and first part of Book page
+
+[33mcommit 6cdc070e6633aab67e7b161931b5b6990b76cc27[m
+Author: aurelien-oc-mentorship <65898532+aurelien-oc-mentorship@users.noreply.github.com>
+Date:   Wed Dec 28 23:07:13 2022 -0500
+
+    Mon vieux grimoire website
+
+[33mcommit 9830df0fea168df44c5a26eac2b411daa718bffe[m
+Author: aurelien-oc-mentorship <65898532+aurelien-oc-mentorship@users.noreply.github.com>
+Date:   Mon Jan 9 07:00:39 2023 -0500
+
+    Add ScrollToTop.jsx
+
+[33mcommit 38513aaee68dacc13e74bd36043ce916f2070701[m
+Author: aurelien-oc-mentorship <65898532+aurelien-oc-mentorship@users.noreply.github.com>
+Date:   Thu Jan 12 00:53:53 2023 -0500
+
+    HotFix Project
+
+[33mcommit f412db52dcc19eeee0332ace8c20b494f2b47ae1[m
+Author: aurelien-oc-mentorship <65898532+aurelien-oc-mentorship@users.noreply.github.com>
+Date:   Thu Jan 12 05:58:56 2023 -0500
+
+    HotFix Project
+
+[33mcommit 285e7ef463f50043d4b65d8eb26f4628a84c3395[m
+Author: luc <luc.bourrat.42@gmail.com>
+Date:   Wed May 31 17:00:05 2023 +0200
+
+    Fix book background image style by adding quotes around the URL
+
+[33mcommit dfda80e9b7640816f1e4457f6b46092385258c43[m
+Author: luc <luc.bourrat.42@gmail.com>
+Date:   Wed May 31 17:01:51 2023 +0200
+
+    Add book ID dependency in useEffect to update book data
+
+[33mcommit 36d33d90af1d5eb4a452713e31e1cde05b0b5164[m
+Author: luc <luc.bourrat.42@gmail.com>
+Date:   Wed May 31 17:10:07 2023 +0200
+
+    Refine logic in useEffect in Book.js
+
+[33mcommit e83c2d822ec5044c46a9e88b137926250830d810[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: luc <luc.bourrat.42@gmail.com>
+Date:   Wed Sep 27 20:59:01 2023 +0200
+
+    Fix rating issue when adding a book with zero star

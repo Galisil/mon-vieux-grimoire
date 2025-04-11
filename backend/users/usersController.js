@@ -2,7 +2,7 @@ const bcrypt = require("bcrypt");
 
 const jwt = require("jsonwebtoken");
 
-const User = require("../models/User");
+const User = require("./UserModel");
 //const { JsonWebTokenError } = require("jsonwebtoken");
 
 exports.signup = (req, res, next) => {
